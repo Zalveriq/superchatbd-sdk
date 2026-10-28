@@ -17,10 +17,10 @@
   "homepage": "https://superchatbd.com/docs/sdk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zalveriq/sdk.git"
+    "url": "https://github.com/Zalveriq/superchatbd-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/zalveriq/sdk/issues"
+    "url": "https://github.com/Zalveriq/superchatbd-sdk/issues"
   },
   "type": "module",
   "engines": {
