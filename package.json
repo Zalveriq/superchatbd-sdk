@@ -15,6 +15,13 @@
   ],
   "license": "MIT",
   "homepage": "https://superchatbd.com/docs/sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zalveriq/sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zalveriq/sdk/issues"
+  },
   "type": "module",
   "engines": {
     "node": ">=18"

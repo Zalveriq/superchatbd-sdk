@@ -280,6 +280,7 @@ bun run typecheck
 
 - Developer documentation: <https://superchatbd.com/docs/sdk>
 - OpenAPI specification: <https://api.superchatbd.com/openapi.json>
+- GitHub repository: <https://github.com/zalveriq/sdk>
 
 ## License
 
