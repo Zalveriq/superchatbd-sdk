@@ -10,7 +10,7 @@ import type { Environment, SuperchatOptions } from "./types";
  * Client for the Superchat BD Developer Platform.
  *
  * ```ts
- * import { Superchat } from "@superchatbd/sdk";
+ * import { Superchat } from "@zalveriq/superchatbd-sdk";
  *
  * const superchat = new Superchat({ apiKey: process.env.SUPERCHAT_API_KEY });
  * ```

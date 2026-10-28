@@ -25,4 +25,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Typed error hierarchy: `SuperchatError`, `SuperchatConfigError`, `SuperchatAPIError`, `SuperchatConnectionError`, `SuperchatSignatureError`.
 - Dual ESM / CommonJS output with TypeScript declarations and source maps.
 
-[1.0.0]: https://www.npmjs.com/package/@superchatbd/sdk/v/1.0.0
+[1.0.0]: https://www.npmjs.com/package/@zalveriq/superchatbd-sdk/v/1.0.0

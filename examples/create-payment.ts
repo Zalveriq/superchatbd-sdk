@@ -4,7 +4,7 @@
  * Usage (from the `sdk/` folder):
  *   SUPERCHAT_API_KEY=sk_test_… bun run examples/create-payment.ts
  *
- * Applications importing the published package use `@superchatbd/sdk`; this
+ * Applications importing the published package use `@zalveriq/superchatbd-sdk`; this
  * example imports the sources directly so it runs without a build step.
  */
 import { Superchat } from "../src/index";

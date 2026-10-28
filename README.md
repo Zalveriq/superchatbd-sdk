@@ -1,11 +1,11 @@
-# @superchatbd/sdk
+# @zalveriq/superchatbd-sdk
 
 Official TypeScript / Node.js SDK for the [Superchat BD](https://superchatbd.com) Developer Platform:
 hosted checkout payments, refunds, account data, webhook subscriptions and webhook signature
 verification.
 
-[![npm version](https://img.shields.io/npm/v/@superchatbd/sdk)](https://www.npmjs.com/package/@superchatbd/sdk)
-[![license](https://img.shields.io/npm/l/@superchatbd/sdk)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/@zalveriq/superchatbd-sdk)](https://www.npmjs.com/package/@zalveriq/superchatbd-sdk)
+[![license](https://img.shields.io/npm/l/@zalveriq/superchatbd-sdk)](./LICENSE)
 
 - Typed requests and responses for the whole `/api/v1` surface
 - ESM and CommonJS builds with `.d.ts` declarations and source maps
@@ -19,17 +19,17 @@ helpers use `node:crypto`.
 ## Install
 
 ```bash
-npm install @superchatbd/sdk
+npm install @zalveriq/superchatbd-sdk
 # or
-bun add @superchatbd/sdk
+bun add @zalveriq/superchatbd-sdk
 # or
-pnpm add @superchatbd/sdk
+pnpm add @zalveriq/superchatbd-sdk
 ```
 
 ## Quickstart
 
 ```ts
-import { Superchat } from "@superchatbd/sdk";
+import { Superchat } from "@zalveriq/superchatbd-sdk";
 
 const superchat = new Superchat({
   apiKey: process.env.SUPERCHAT_API_KEY, // sk_live_… or sk_test_…
@@ -156,7 +156,7 @@ test sessions are routed through the simulator and return `{ status, redirectUrl
 | `SuperchatSignatureError` | Webhook verification failed — see the webhook section.                  |
 
 ```ts
-import { SuperchatAPIError, SuperchatError } from "@superchatbd/sdk";
+import { SuperchatAPIError, SuperchatError } from "@zalveriq/superchatbd-sdk";
 
 try {
   await superchat.payments.create({ amount: 10, success_url: "…", cancel_url: "…" });
@@ -186,7 +186,7 @@ carries:
 The body is an envelope: `{ id: "evt_…", event, created_at, data }`.
 
 ```ts
-import { constructWebhookEvent, SuperchatSignatureError } from "@superchatbd/sdk";
+import { constructWebhookEvent, SuperchatSignatureError } from "@zalveriq/superchatbd-sdk";
 
 // Express: keep the raw body!
 app.post("/webhooks/superchat", express.raw({ type: "application/json" }), (req, res) => {

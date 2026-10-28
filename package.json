@@ -1,5 +1,5 @@
 {
-  "name": "@superchatbd/sdk",
+  "name": "@zalveriq/superchatbd-sdk",
   "version": "1.0.1",
   "description": "Official TypeScript / Node.js SDK for the Superchat BD Developer Platform: hosted checkout payments, refunds, account data and webhook signature verification.",
   "keywords": [
@@ -17,7 +17,7 @@
   "homepage": "https://superchatbd.com/docs/sdk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zalveriq/superchatbd-sdk.git"
+    "url": "git+https://github.com/Zalveriq/superchatbd-sdk.git"
   },
   "bugs": {
     "url": "https://github.com/Zalveriq/superchatbd-sdk/issues"
